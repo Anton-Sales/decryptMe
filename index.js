@@ -31,20 +31,16 @@ function decryptMe(et) {
         ',': ',',
         ' ': ' '
     }
-    // console.log(et)
     for (let i = 0; i < et.length; i++) {
         let position = et[i]
         result.push(map[position])
     }
-    // return result.join('')
-    console.log(result.join(''))
+    return result.join('')
 }
 
 let encryptedText = 'knlfgnb, sj koqj o yvnewju'
 
-// const func = () => console.log(decryptMe(encryptedText))
-
-// func()
 decryptMe(encryptedText)
 
 module.exports = decryptMe
+

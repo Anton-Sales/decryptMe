@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "jest --watch --noStackTrace"
+  },
+  "dependencies": {
+    "jest": "^23.5.0"
+  }
+}
